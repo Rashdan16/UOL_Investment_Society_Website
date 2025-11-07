@@ -1,0 +1,8 @@
+﻿{% extends 'main/base.html' %}
+{% block title %}{{ page_title }} — University of Leicester{% endblock %}
+{% block content %}
+  <h1 class="page-title">{{ page_title }}</h1>
+  <div class="page-body">
+    {{ page_body|default:"Content coming soon." }}
+  </div>
+{% endblock %}
